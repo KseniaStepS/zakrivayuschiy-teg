@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
     <title>Закрывающий тег</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
@@ -15,7 +16,9 @@
     <link rel="apple-touch-icon" href="./images/mobile-icon.png"/>
   </head>
   <body class="page">
-    <header class="header">
+    <header class="content header">
+      <p class="header__logo">&lt;/HTML&gt;</p>
+      <h1 class="header__title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -42,11 +45,16 @@
         </ul>
       </nav>
     </header>
+
     <main class="content main">
+
       <section class="cards">
+
         <article class="card__item">
+
           <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
           <img src="./images/image_1.jpg" class="card__image" alt="Пиксельное изображение белого фургона на ночной дороге"/>
+
           <div class="card__content">
             <p class="card__paragraph">Это было самое начало пути. На этом этапе важно было проникнуться основами и настроиться на учёбу. И, возможно, подумать, как новые знания могут повлиять на ваше будущее.</p>
             <p class="card__paragraph">Место для ваших воспоминаний о начале обучения.</p>
@@ -94,20 +102,20 @@
           </div>
         </article>
       </section>
+
     </main>
+
     <footer class="footer">
+
       <button class="footer__floppy-button button" type="button">
         <svg class="floppy-icon" aria-hidden="true">
           <use href="./svg/floppy.svg#floppy"/>
         </svg>
         <span class="button__text">Сохранить&nbsp;на&nbsp;память</span>
       </button>
+
     </footer>
-    <script src="./scripts/set-theme.js"></script>
-    <script src="./scripts/like.js"></script>
-  </body>
-</html>
-</main>
+
     <script src="./scripts/set-theme.js"></script>
     <script src="./scripts/like.js"></script>
   </body>
